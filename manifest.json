@@ -1,0 +1,28 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.selfie-segmentation",
+  "name": "Selfie Segmentation",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "Apache-2.0",
+  "compat": ">=0.1",
+  "description": "Per-pixel foreground/subject matte from a single frame. Uses: background removal / replacement; portrait bokeh; green-screen-free compositing; the mask that seeds object removal.",
+  "author": "azphalt",
+  "homepage": "https://github.com/HereLiesAz/azphalt-selfie-segmentation",
+  "assets": [
+    {
+      "type": "onnx",
+      "path": "",
+      "role": "subject-segmentation",
+      "remoteUrl": "https://github.com/HereLiesAz/azphalt-selfie-segmentation/releases/latest/download/selfie_segmentation.onnx",
+      "modelLicense": "Apache-2.0 (MediaPipe Selfie Segmentation, Google)",
+      "tags": [
+        "segmentation",
+        "matting",
+        "background-removal",
+        "image"
+      ]
+    }
+  ],
+  "files": {}
+}
