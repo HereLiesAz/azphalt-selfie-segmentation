@@ -4,7 +4,7 @@
   "name": "Selfie Segmentation",
   "version": "1.0.0",
   "kind": "asset",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "compat": ">=0.1",
   "description": "Per-pixel foreground/subject matte from a single frame. Uses: background removal / replacement; portrait bokeh; green-screen-free compositing; the mask that seeds object removal.",
   "author": "HereLiesAz",

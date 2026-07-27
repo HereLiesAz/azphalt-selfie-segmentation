@@ -1,15 +1,13 @@
-Selfie Segmentation — third-party model attribution
+Selfie Segmentation — third-party attribution
 
-This package's own manifest and build tooling are MIT (see LICENSE).
+Model weights distributed or referenced by this package are NOT the work of
+HereLiesAz and are not licensed by HereLiesAz.
 
-The model weights this extension distributes are NOT covered by that licence.
-They are the work of their respective authors and remain under their own terms:
-
-- subject-segmentation: Apache-2.0 (MediaPipe Selfie Segmentation, Google)
+Declared upstream terms:
+  - subject-segmentation: Apache-2.0 (MediaPipe Selfie Segmentation, Google)
 
 Retrieved from:
-  https://huggingface.co/onnx-community/mediapipe_selfie_segmentation/resolve/main/selfie_segmentation.onnx
+  https://huggingface.co/onnx-community/mediapipe_selfie_segmentation
 
-Redistribution of those weights is subject to the terms above, including any
-attribution and notice requirements. Consult each upstream project for the
-authoritative licence text before redistributing.
+The upstream repository declares: Apache-2.0. Redistribution is subject to that
+licence, including any attribution and notice requirements.
